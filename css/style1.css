@@ -1,0 +1,368 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+}
+html, body {
+    height: 100%;
+    color: white;
+    font-family:"Netflix Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
+   
+}
+
+.background-image {
+    background: url(../img/background.jpg);
+    background-size: cover;
+    height: 100vh;
+   
+   }
+.background-color {
+    background-color: rgba(0, 0, 0, 0.6);
+    height: 100vh;
+   }
+.hr-line {
+    background-color: #333;
+    height: 7px;
+    border: none;
+}
+.btn {
+    background-color: rgb(229, 9, 20);
+    text-decoration: none solid rgb(255, 255, 255);
+    padding: 7px 17px;
+    border: none;
+    border-radius: 2px;
+    color: white;
+    margin: 0px;
+}
+
+h1 {
+    font-size: 50px;
+    line-height: 55px;
+    font-weight: 700;
+    margin-bottom: 20px;}
+
+h2 {
+        font-size: 26px;
+        font-weight: 400;
+        }
+
+h3 {
+        font-size: 20px;
+        font-weight: 400;
+        margin-top: 30px;
+        }
+
+.background {
+    background-color: rgb(0, 0, 0);
+        }
+#nav-bar {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding: 30px 50px;
+    
+}
+
+#nav-bar img {
+    width:130px;
+    }
+
+#nav-bar a {
+    text-decoration: none;
+    font-size: 1.2em;
+}
+/* Section Hero */
+#hero-container {
+    /* position: absolute;
+    top: 7%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center; */
+    text-align: center;
+    height: 100vh;
+    
+}
+
+#hero {
+    padding-top: 130px;
+    width: 70%;
+    margin: auto;
+}
+#hero h1 {
+    font-size: 55px;
+    line-height: 55px;
+    font-weight: 700;
+    margin: 0px 155px;
+}
+
+#hero h2 {
+    font-size: 26px;
+    font-weight: 400;
+    margin: 16px 155px;
+}
+
+/* #hero h3 {
+    font-size: 22px;
+    font-weight: 400;
+    margin:0px 122.828px;
+padding:0px 47.5px 20px;
+} */
+
+#hero form {
+    padding: 15px 15px;
+    font-size: 16px;
+  }
+
+  
+.email {
+    width: 50%;
+    margin: 10px 0px;
+    padding: 15px 10px;
+    font-size: 14px;
+}
+
+#hero button {
+    /* position: absolute;
+    top: 73%; */
+    padding: 12px 15px 15px 15px;
+    margin-left: -5px;
+    /* margin-top: 17px; */
+    font-size: 20px;
+    font-weight: 400;
+}
+
+/* Section Enjoy */
+#enjoy {
+    height: 450px;
+     display: flex;
+    flex-direction: row;
+    flex-flow: wrap;
+    }
+
+    .flex-items{
+        width: 50%;
+    }
+
+    #enjoy-media{
+        position: relative;
+        
+    }
+
+    .image-div{
+        position: absolute;
+        left: 20%;
+        width: 100%;
+        z-index: 1;
+    }
+    .image-div img {
+        width: 78%;
+    }
+    .video-div{
+        position: absolute;
+        top: 18%;
+        left: 27%;
+        margin-left: 20px;
+    }
+    .enjoy-text { 
+    padding: 100px;
+    } 
+
+/* download section */
+
+#download {
+    display: flex;
+    flex-direction: row-reverse;
+}
+
+.download-media {
+        position: relative;
+}
+
+.strange-image1 {
+    position: absolute;
+    top: 7%;
+    left: 7%;
+}
+
+.gif-box {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    position: absolute;
+    top: 70%;
+    left: 24%;
+    width: 50%;
+    border: 2px solid #444;
+    border-radius: 10px;
+    background: #000;
+}
+.gif-image {
+    padding: 8px;
+}
+
+.gif-image img{
+    width: 35%;
+}
+.strange-image1 img {
+    width: 90%;
+}
+
+.gif-text {
+    position: absolute;
+    left: 23%;
+    top: 35%;
+    font-size: 15px;
+    }
+
+.gif-text .p1 {
+    font-weight:bold;
+}
+
+.gif-text .downloading-text {
+    color: blue;
+    font-size: 14px;
+}
+.gif {
+    margin-right: -12px;
+    width: 25%;
+    align-self: center;
+    align-content: flex-end;
+   }
+.gif img {
+    width: 60%;
+}
+/* watch section */
+#watch {
+    padding: 60px 110px;
+}
+.watch-div {
+    width: 45%;
+}
+
+/* kids section */
+#kids {
+    display: flex;
+    flex-direction:row;
+    flex-flow: wrap;
+    }
+
+    .text {
+        padding-left: 0px;
+        padding-top: 150px;
+        padding-bottom: 120px;
+        padding-right: 120px;
+
+    }
+    .kids-img {
+        padding-left: 120px;
+        padding-top: 60px;
+        padding-bottom: 60px;
+    }
+    .kids-img img{
+        width: 90%;
+    }
+
+/* FAQ section */
+#FAQ {
+display: flex;
+flex-direction: column;
+align-items: center;
+}
+
+#FAQ h1 {
+    margin: 30px 0px 40px 5px;
+}
+
+.FAQ-list {
+    width: 60%;
+    margin-bottom: 50px;
+}
+
+form {
+    margin-top:0px;
+    padding: 15px 15px;
+    font-size: 16px;
+  }
+
+  
+#FAQ .email {
+    width: 70%;
+    margin: 10px 0px;
+    padding: 15px 10px;
+    font-size: 14px;
+}
+
+#FAQ button {
+    /* position: absolute;
+    top: 73%; */
+    padding: 12px 10px 15px 10px;
+    margin-left: -5px;
+    /* margin-top: 17px; */
+    font-size: 20px;
+    font-weight: 400;
+}
+
+#FAQ .list-items {
+    display: flex;
+    justify-content: space-between;
+    list-style: none;
+    padding: 20px 20px 15px 20px;
+    background: #333;
+    margin: 8px 0;
+    font-size: 25px;
+}
+
+.list-dropdown {
+    font-size: 40px;
+    margin-right: 15px;
+}
+
+.hidden-text {
+    display: none;
+}
+
+.list-dropdown:hover .hidden-text {
+    display: block;
+}
+
+/* footer section */
+footer {
+    padding-top: 70px;
+
+}
+
+footer a{
+    text-decoration: none;
+    color: #666;
+}
+
+.footer-text {
+    margin: 0px 0px 20px 185px;
+    font-weight: 500;
+}
+
+.footer-list {
+    display: flex;
+    /* grid-template-columns: 50px 50px 50px; */
+    flex-direction: column;
+    flex-wrap: wrap;
+    height: 175px;
+    margin: 0px 130px;
+    /* overflow: hidden; */
+}
+
+.footer-list li {
+    list-style: none;
+    margin: 8px 20px;
+}
+
+.footer-list a {
+    font-size: 13px;
+}
+
+.copyright-text {
+    font-size: 13px;
+    margin: 10px 0px 0px 190px;
+    color: #666;
+}

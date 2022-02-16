@@ -1,0 +1,35 @@
+/* body {
+    background-color: black;
+} */
+html, body {
+    height: 100%;
+}
+p {
+    color: rgb(209, 27, 27);
+
+}
+
+li {
+    list-style: none;
+    color: azure;
+}
+#para {
+    color: pink;
+}
+.color {
+color: blueviolet;
+}
+
+.background-image {
+    background: url(../img/Netflix-Background.jpg);
+    background-size: cover;
+    height: 100vh;
+    background-attachment: fixed;
+}
+
+form {
+    position: absolute;
+    top: 20%;
+    left: 45%;
+
+}

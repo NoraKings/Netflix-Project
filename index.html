@@ -1,107 +1,134 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-   <!-- <meta charset="UTF-8">
+   <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0"> -->
-   <link rel="icon" type="image/png" href="/img/logo.png"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"> 
+   <link rel="icon" type="image/png" href="./img/netflix logo.png"/>
+   <link rel="stylesheet" href="./css/style1.css">
     <title>Netflix Nigeria - Watch TV Shows Online, Watch Movies Online</title>
 </head>
 <body>
     <main>
-        <nav>
-            <h2>NETFLIX</h2>
-            <button>Sign In</button>
-        </nav>
-        <Section id="hero"> 
-            <h1>Unlimited movies, TV shows, and more.</h1>
-            <h2>Watch anywhere. Cancel anytime</h2>
-            <p>Ready to watch? Enter your email to create or restart your membership.</p>
-            <div>
-                <form action="">
-                    <input type="text" placeholder="Email address">
-                    <button>Get Started > </button>
-                </form>
+        <div class="background-image">
+            <div class="background-color">
+                <nav id="nav-bar">
+                    <img src="./img/logo_2.png" alt="">
+                    <button class="btn"><a>Sign In</a></button>
+                </nav>
+                <Section id="hero-container"> 
+                    <div id="hero">
+                        <h1>Unlimited movies, TV shows, and more.</h1>
+                        <h2>Watch anywhere. Cancel anytime</h2>
+                        <h3>Ready to watch? Enter your email to create or restart your membership.</h3>
+                        <div class="form">
+                            <form action="">
+                                <input class="email" type="text" placeholder="Email address">
+                                <button class="btn">Get Started > </button>
+                            </form>
+                        </div>
+                    </div>
+                </Section>
+        </div>
+    </div>
+    <hr class="hr-line">
+        <section id="enjoy" class="background">
+            <div class="enjoy-text flex-items">
+                <h1>Enjoy on your TV.</h1>
+                <h2>Watch on Smart TVs, Playstation, Xbox, Chromecast, Apple TV, Blu-ray players, and more.</h2>
             </div>
-        </Section>
-        <section id="enjoy">
-            <div>
-                <h3>Enjoy on your TV.</h3>
-                <p>Watch on Smart TVs, Playstation, Xbox, Chromecast, Apple TV, Blu-ray players, and more.</p>
-            </div>
-            <div>
-                <div>
-                    <img src="" alt="">
-                </div>
-                <div>
-                    <video src="">
-                        <source src="" type="">
-                    </video>
-                </div>
+            <div id="enjoy-media" class="flex-items">
+               <!-- <div> -->
+                    <div class="image-div">
+                        <img src="./img/tv.png" alt="">
+                    </div>
+                    <div class="video-div">
+                        <video autoplay muted width="390px" loop>
+                            <source src="./video/video-tv-0819.m4v" type="">
+                        </video>
+                    </div>
+               <!-- </div> -->
             </div>
         </section>
-        <section id="download">
-            <div>
-                <h3>Download your shows to watch offline.</h3>
-                <p>Save your favorites easily and always have something to watch.</p>
+        
+    <hr class="hr-line">
+        <section id="download" class="background">
+            <div class="flex-items text">
+                <h1>Download your shows to watch offline.</h1>
+                <h2>Save your favorites easily and always have something to watch.</h2>
             </div>
-            <div>
-                <div>
-                    <img src="" alt="">
+            <div class="flex-items download-media">
+                <div class="strange-image1">
+                    <img src="./img/stranger things.jpg" alt="">
                 </div>
-                <div>
-                    <img src="" alt="">
-                    <div>
-                                <p>Stranger Things</p>
-                                <p>Downloading...</p>
+                    <div class="gif-box">
+                    <div class="gif-image">
+                        <img src="./img/boxshot.png" alt="">
+                    </div>
+                    
+                    <div class="gif-text">
+                        <p class="p1">Stranger Things</p>
+                        <p>
+                            <span class="downloading-text "> Downloading...</span></p>
+                    </div>
+
+                    <div class="gif ">
+                        <img src="./img/download-icon.gif" alt="">
                     </div>
                 </div>
             </div>
         </section>
-        <section id="watch">
-            <h3>Watch everywhere.</h3>
-            <p>Stream unlimited movies and TV shows on your phone, tablet, laptop, and TV.</p>
-        </section>
-        <section id="kids">
-            <div>
-                <h3>Create profiles for kids.</h3>
-                <p>Send kids on adventures with their favorite characters in a space made just for them—free with your membership.</p>
-            </div>
-            <div>
-                <img src="" alt="">
+        <hr class="hr-line">
+        <section id="watch" class="background">
+            <div class="watch-div">
+            <h1>Watch everywhere.</h1>
+            <h2>Stream unlimited movies and TV shows on your phone, tablet, laptop, and TV.</h2>
             </div>
         </section>
-        <section id="FAQ">
-            <div>
-                <h3>Frequently Asked Questions</h3>
+        <hr class="hr-line">
+        <section id="kids" class="background">
+            <div class="flex-items kids-img">
+                <img  src="./img/kids.png" alt="">
             </div>
+            <div class="flex-items text">
+                <h1>Create profiles for kids.</h1>
+                <h2>Send kids on adventures with their favorite characters in a space made just for them—free with your membership.</h2>
+            </div>
+            
+        </section>
+        <hr class="hr-line">
+        <section id="FAQ" class="background">
             <div>
+                <h1>Frequently Asked Questions</h1>
+            </div>
+            <div class="FAQ-list">
                 <ul>
-                    <li>What is Netflix?</li>
-                    <li>How much does Netflix cost? </li>
-                    <li>Where can I watch?</li>
-                    <li>How do I cancel?</li>
-                    <li>What can I watch on Netflix?</li>
-                    <li>Is Netflix good for kids?</li>
+                    <li class="list-items">What is Netflix? <span class="list-dropdown">+</span></li> 
+                    <li class="list-items">How much does Netflix cost? <span class="list-dropdown">+</span></li>
+                    <li class="list-items">Where can I watch? <span class="list-dropdown">+</span></li>
+                    <li class="list-items">How do I cancel? <span class="list-dropdown">+</span></li>
+                    <li class="list-items">What can I watch on Netflix? <span class="list-dropdown">+</span></li>
+                    <li class="list-items">Is Netflix good for kids? <span class="list-dropdown">+</span></li>
                 </ul>
             </div>
             <div>
-                <p>Ready to watch? Enter your email to create or restart your membership.</p>
+                <h3>Ready to watch? Enter your email to create or restart your membership.</h3>
                 <div>
                     <form action="">
-                        <input type="text" placeholder="Email address">
-                        <button>Get Started > </button>
+                        <input class="email" type="text" placeholder="Email address">
+                        <button class="btn">Get Started > </button>
                     </form>
                 </div> 
             </div>
         </section>
+        <hr class="hr-line">
     </main>
-    <footer>
-        <div>
-            <p><a href="">Questions? Contacts Us.</a></p>
+    <footer class="background">
+        <div class="footer-text">
+            <p><a href="">Questions? Contacts us.</a></p>
         </div>
-        <div>
-            <ul>
+        <div >
+            <ul class="footer-list">
                 <li><a href="">FAQ</a></li>
                 <li><a href="">Media Center</a></li>
                 <li><a href="">Ways to Watch</a></li>
@@ -110,7 +137,7 @@
                 <li><a href="">Help Center</a></li>
                 <li><a href="">Investor Relations</a></li>
                 <li><a href="">Terms of Use</a></li>
-                <li><a href="">Corporate Information</a></li>
+                <li><a href="">Corporate Information</a></li> 
                 <li><a href="">Terms of Use</a></li>
                 <li><a href="">Corporate information</a></li>
                 <li><a href="">Legal Notices</a></li>
@@ -121,7 +148,8 @@
                 <li><a href="">Only on Netflix</a></li>
             </ul>
         </div>
-        <div>Netflix Nigeria</p>
+        <div class="copyright-text">
+            <p> Netflix Nigeria</p>
         </div>
     </footer>
 </body>
